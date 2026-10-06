@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#ecd2db">
+    <meta name="description" content="Приглашение на день рождения Анастасии">
+    <title>Приглашение на день рождения</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body class="is-intro-visible">
+    <div class="envelope-intro" id="envelopeIntro" aria-label="Нажми, чтобы открыть приглашение">
+      <button class="envelope-trigger" id="openInvitation" type="button" aria-label="Открыть приглашение">
+        <span class="envelope-stack" aria-hidden="true">
+          <img class="envelope-closed" src="assets/envelope-one-trim.png" alt="">
+          <img class="envelope-open" src="assets/envelope-open-base.webp" alt="">
+          <span class="peek-paper"></span>
+          <img class="envelope-front" src="assets/envelope-open-front.webp" alt="">
+        </span>
+        <span class="tap-hint">нажми, чтобы открыть</span>
+      </button>
+      <span class="paper-wipe" aria-hidden="true"></span>
+    </div>
+
+    <main class="invitation" id="invitation">
+      <header class="top-art" aria-label="Приглашение на день рождения">
+        <img class="invitation-title-art" src="assets/invitation-title-trim.png" alt="Приглашение на день рождения">
+        <img class="bunting-art" src="assets/bunting-trim.png" alt="Праздничная гирлянда">
+      </header>
+
+      <img class="birthday-art" src="assets/birthday-18-trim.png" alt="Розовые шары с цифрой 18, девочка и надпись Happy Birthday">
+
+      <section class="intro-card paper-card" aria-labelledby="greeting">
+        <img class="binder" src="assets/clip-trim.png" alt="">
+        <h1 id="greeting">здарова братик</h1>
+        <p class="intro-lead">если ты это читаешь — значит, я хочу видеть тебя на своём дне рождения.</p>
+        <p class="handwritten intro-copy">Мне исполняется 18, и по такому поводу я решила сделать всё немного масштабнее — сняла дом и хочу собрать там людей, с которыми мне действительно хочется разделить этот день.</p>
+      </section>
+
+      <section class="calendar-section" aria-label="Дата дня рождения">
+        <img class="calendar-art" src="assets/calendar-trim.png" alt="Ноябрь: приглашение на 12 и 13 числа">
+      </section>
+
+      <p class="handwritten schedule">встречаемся примерно в 18:00–19:00<br>остаёмся с ночёвкой<br>выезжаем примерно в 11:00</p>
+
+      <section class="address-section" aria-labelledby="address-title">
+        <a class="blob-button address-button" href="https://maps.app.goo.gl/cqQqt2JWR4ajUsU68?g_st=ic" target="_blank" rel="noopener noreferrer" aria-label="Открыть адрес в Google Картах">
+          <img src="assets/address-button-trim.png" alt=""><span id="address-title">адрес</span>
+        </a>
+      </section>
+
+      <section class="notes-section" aria-labelledby="notes-title">
+        <h2 class="section-title pink-title" id="notes-title">примечания</h2>
+        <p class="handwritten notes-intro">как бы ни хотелось иметь полную свободу действий, есть определенные моменты, на которые я хочу обратить внимание.</p>
+        <div class="handwritten note-list">
+          <p>нужно постараться быть аккуратным и ничего не сломать</p>
+          <p>курение разрешено лишь на улице</p>
+          <p>при выезде нужно будет немного убраться (надеюсь на вашу помощь в этом плане : вынести мусор, засунуть посуду в посудомойку, в целом визуально +- чистоту оставить)</p>
+          <p>около 10:30 утра к нам заявится хозяин с целью проверки дома. в это время мы можем спокойно собирать свои вещи и выехать до 11 утра.</p>
+          <p>взять с собой вещи для комфортной ночевки, домашние тапки и хорошее настроение!!</p>
+        </div>
+      </section>
+
+      <img class="wig-photo full-bleed" src="assets/wig-man-trim.png" alt="Мужчина в ярко-розовом парике">
+
+      <section class="wishlist-section" aria-labelledby="wishlist-title">
+        <h2 class="wishlist-heading" id="wishlist-title">виш лист</h2>
+        <p class="handwritten wishlist-copy">тут собраны вещи кроме губозакаточной машинки, которые сама пока неизвестно когда куплю, поэтому буду очень рада, если епеонто внимание на него обратится.<br>я безусловно приветствую любую идею в этом плане, так что виш лист лишь подсказка.<br><br>Если что-то выбираете из списка, пожалуйста, отметьте это там, чтобы избежать повторов. Отметки я не вижу, так что сюрприз останется сюрпризом.</p>
+        <a class="blob-button wishlist-button" href="https://ohmywishes.com/users/anastasiasavinova973" target="_blank" rel="noopener noreferrer" aria-label="Открыть виш лист">
+          <img src="assets/open-button-trim.png" alt=""><span>открыть</span>
+        </a>
+      </section>
+
+      <section class="closing-section">
+        <p class="handwritten">мне важно, чтобы каждый человек, получивший это приглашение, разделил со мной этот приятный вечер и я буду рада видеть каждого, не важно, с подарком или без.</p>
+        <p class="telegram-note handwritten">ближе к самому событию я создам и добавою каждого в группу в телеграмме, чтобы все были на связи</p>
+      </section>
+
+      <footer class="goodbye">
+        <div class="goodbye-art"><img class="full-bleed" src="assets/leg-trim.png" alt="Ноутбук на розовой руке"><p>до встречи!</p></div>
+      </footer>
+    </main>
+  </body>
+</html>
